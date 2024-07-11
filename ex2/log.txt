@@ -1,0 +1,55 @@
+curl : "https://api.openweathermap.org/data/2.5/weather?q=kazan&appid={Secretkey}=ru&units=metric"
+
+
+{
+    'coord': 
+    {
+        'lon': 49.1221, 
+        'lat': 55.7887
+    }, 
+    'weather': 
+    [
+        {
+            'id': 801, 
+            'main': 'Clouds', 
+            'description': 'few clouds', 
+            'icon': '02d'
+        }
+    ], 
+    'base': 'stations', 
+    'main': 
+    {
+        'temp': 304.49, 
+        'feels_like': 307.95, 
+        'temp_min': 304.49, 
+        'temp_max': 304.49, 
+        'pressure': 1009, 
+        'humidity': 57, 
+        'sea_level': 1009, 
+        'grnd_level': 996
+    }, 
+    'visibility': 10000, 
+    'wind': 
+        {
+            'speed': 3.39, 
+            'deg': 167, 
+            'gust': 4.74
+        }, 
+    'clouds': 
+        {
+            'all': 18
+        }, 
+    'dt': 1720017753, 
+    'sys': 
+    {
+        'type': 1, 
+        'id': 9038, 
+        'country': 'RU', 
+        'sunrise': 1719965120, 
+        'sunset': 1720027793
+    }, 
+    'timezone': 10800, 
+    'id': 551487, 
+    'name': 'Kazan’', 
+    'cod': 200
+}
